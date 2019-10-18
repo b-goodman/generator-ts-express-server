@@ -1,5 +1,5 @@
 {
-  "name": "<%= projectName =>",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
   "main": "dist/server.js",
   "author": "Ben Goodman <bgoodman@wolfram.com>",
