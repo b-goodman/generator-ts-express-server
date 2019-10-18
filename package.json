@@ -1,0 +1,41 @@
+{
+  "name": "generator-ts-express-server",
+  "version": "1.0.0",
+  "description": "Gives a new express server using typescript.",
+  "author": {
+    "name": "Ben Goodman",
+    "email": "b@thebgoodman.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-goodman/generator-ts-express-server"
+  },
+  "main": "generators/index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "generator",
+    "yeoman-generator",
+    "express",
+    "express-js",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "prettier": "^1.15.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yeoman-generator": "^4.0.1",
+    "yosay": "^2.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
